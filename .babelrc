@@ -1,0 +1,32 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    [
+      "@babel/react"
+    ]
+  ],
+  "plugins": [
+    [
+      "macros"
+    ],
+    [
+      "react-hot-loader/babel"
+    ],
+/*     [
+      "graphql-tag"
+    ],
+    [
+      "import-graphql"
+    ], */
+    [
+      "babel-plugin-styled-components"
+    ]
+  ]
+}
